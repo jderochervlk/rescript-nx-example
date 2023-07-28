@@ -11,6 +11,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@babel/preset-react": "^7.14.5",
     "@nx/cypress": "16.5.5",
     "@nx/eslint-plugin": "16.5.5",
     "@nx/js": "16.5.5",
@@ -36,6 +37,7 @@
     "eslint-plugin-jsx-a11y": "6.7.1",
     "eslint-plugin-react": "7.32.2",
     "eslint-plugin-react-hooks": "4.6.0",
+    "gentype": "^4.5.0",
     "jsdom": "~22.1.0",
     "nx": "16.5.5",
     "prettier": "^2.6.2",
@@ -48,9 +50,11 @@
     "targets": {}
   },
   "dependencies": {
+    "@rescript/react": "^0.11.0",
     "@swc/helpers": "~0.5.0",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "rescript": "^10.1.4"
+    "rescript": "^10.1.4",
+    "tslib": "^2.3.0"
   }
 }

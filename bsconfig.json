@@ -2,7 +2,11 @@
   "name": "your-project-name",
   "sources": [
     {
-      "dir": "my-app/src",
+      "dir": "./my-app/src",
+      "subdirs": true
+    },
+    {
+      "dir": "./my-components/src",
       "subdirs": true
     }
   ],
@@ -13,5 +17,16 @@
     }
   ],
   "suffix": ".bs.mjs",
-  "bs-dependencies": []
+  "jsx": { "version": 4, "mode": "classic" },
+  "bs-dependencies": ["@rescript/react"],
+  "gentypeconfig": {
+    "language": "typescript",
+    "shims": {},
+    "generatedFileExtension": ".gen.tsx",
+    "module": "es6",
+    "debug": {
+      "all": false,
+      "basic": false
+    }
+}
 }
