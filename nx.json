@@ -14,16 +14,17 @@
     "@nx/react": {
       "application": {
         "style": "css",
-        "linter": "eslint",
+        "linter": "none",
         "bundler": "vite",
-        "babel": true
+        "babel": false,
+        "js": true
       },
       "component": {
         "style": "css"
       },
       "library": {
         "style": "css",
-        "linter": "eslint",
+        "linter": "none",
         "unitTestRunner": "vitest"
       }
     }

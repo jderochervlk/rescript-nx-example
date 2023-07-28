@@ -60,13 +60,6 @@
         "reportsDirectory": "../coverage/my-app"
       }
     },
-    "lint": {
-      "executor": "@nx/linter:eslint",
-      "outputs": ["{options.outputFile}"],
-      "options": {
-        "lintFilePatterns": ["./my-app/**/*.{ts,tsx,js,jsx}"]
-      }
-    },
     "serve-static": {
       "executor": "@nx/web:file-server",
       "options": {

@@ -14,9 +14,6 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {
-      "my-components": ["my-components/src/index.ts"]
-    }
   },
   "exclude": ["node_modules", "tmp"]
 }
