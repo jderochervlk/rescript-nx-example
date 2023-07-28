@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "res:build": "rescript",
+    "res:dev": "rescript build -w"
   },
   "keywords": [],
   "author": "",
@@ -49,6 +50,7 @@
   "dependencies": {
     "@swc/helpers": "~0.5.0",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "rescript": "^10.1.4"
   }
 }
